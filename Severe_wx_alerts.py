@@ -63,5 +63,5 @@ while True:
         elif Tornado_warn_update in title:
             New_severe_weather_alert("Tornado Warning updated")
 
-    # Wait for a certain period before checking again (e.g., 5 minutes)
+    # Wait for a certain period before checking again (e.g., 60 seconds)
     time.sleep(60)
